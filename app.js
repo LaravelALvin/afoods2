@@ -1,6 +1,6 @@
 "user strict";
 
-fetch("/uploads/popularfood.js")
+fetch("popularfood.json")
   .then(function(resp){
     return resp.json();
   })
